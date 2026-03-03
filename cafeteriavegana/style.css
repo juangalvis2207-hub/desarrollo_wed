@@ -21,8 +21,46 @@
 
 header{
     background-color: var(--color-detalle-verde);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
 }
 
 .logo img{
     height: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-fondo-principal);
+    font-family: var(--fuente-titulos);
+    font-weight: 600;
+}
+
+.boton-pedir{
+    background-color: #d59b8d;
+    
+}
+
+.boton-pedir a{
+    text-decoration: none;
+    background-color: #d59b8d;
+    padding: 30px;
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+
 }
